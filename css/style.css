@@ -5,7 +5,6 @@
 
 body {
     display: flex;
-    flex-direction: row;
     box-sizing: border-box;
 }
 
@@ -13,7 +12,7 @@ body {
     position: relative;
 }
 
-.left_side .background_image img {
+.background_image img {
     width: 67vw;
     height: auto;
 }
@@ -42,14 +41,14 @@ body {
     flex-direction: column;
 }
 
-.right_side .head {
+.head {
     display: flex;
     padding: 0.25rem;
     align-items: center;
     gap: 0.75rem;
 }
 
-.right_side .head p {
+.head p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.125rem;
     line-height: 2.5rem;
@@ -66,7 +65,7 @@ body {
     line-height: 1.75rem;
 }
 
-.right_side .input {
+.input {
     margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -74,13 +73,13 @@ body {
     gap: 1rem;
 }
 
-.right_side .input .input1 {
+.input1 {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-.right_side .input .col-1 {
+.col-1 {
     color: #333333;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.6875rem;
@@ -91,7 +90,7 @@ body {
     padding-left: 1rem;
 }
 
-.right_side .input .col-2 input[type=email], input[type=password] {
+input[type=email], input[type=password] {
     background-color: #f1f1f1;
     width: 23.5rem;
     align-items: center;
@@ -108,15 +107,16 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
-.right_side .input .forget {
+
+.forget {
     width: 100%;
 }
 
-.right_side .input .forget a {
+.forget a {
     text-decoration: none;
 }
 
-.right_side .input .forget p {
+.forget p {
     color: #007AFF;
     font-family: Arial;
     font-size: 0.75rem;
@@ -127,7 +127,7 @@ body {
     text-align: right;
 }
 
-.right_side .input .submit a input[type=submit] {
+.submit input[type=submit] {
     width: 25.5rem;
     background-color: #8053FF;
     margin-top: 2rem;
@@ -140,18 +140,18 @@ body {
     font-size: 0.9375rem;
 }
 
-.right_side .input .submit a input[type=submit]:active {
+.submit input[type=submit]:active {
     background-color: #6e3afc;
 }
 
-.right_side .input .line {
+.line {
     margin-top: 2rem;
     height: 0.04125rem;
     align-self: stretch;
     background-color: #E5E5E5;
 }
 
-.right_side .input .google_sign > a button {
+.google_sign  button {
     width: 25.5rem;
     margin-top: 2rem;
     background-color: #333333;
@@ -167,15 +167,15 @@ body {
     -ms-border-radius: 0.375rem;
     -o-border-radius: 0.375rem;
 }
-.right_side .input .google_sign > a {
+.google_sign  a {
     text-decoration: none;
 }
 
-.right_side .input .google_sign > a button:active {
+.google_sign button:active {
     background-color: #000000;
 }
 
-.right_side .input .google_sign > a button p {
+.google_sign button p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.75rem;
@@ -183,7 +183,7 @@ body {
     line-height: 1.25rem;
 }
 
-.right_side .sign_up {
+.sign_up {
     width: 24.5rem;
     margin-top: 1.5rem;
     display: flex;
@@ -192,33 +192,33 @@ body {
     gap: 0.5rem;
 }
 
-.right_side .sign_up .p {
+.p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.75rem;
     font-weight: 400;
     line-height: 1.25rem;
     letter-spacing: 0.01875rem;
 }
-.right_side .sign_up a {
+.sign_up a {
     text-decoration: none;
 }
 
-.right_side .sign_up .left {
+.left {
     color: #1A1A1A;
 }
 
-.right_side .sign_up .right {
+.right {
     color: #8053FF;
 }
 
-.right_side .footer {
+.footer {
     margin-top: auto;
     display: flex;
     justify-content: center;
 }
 
-.right_side .footer p {
-    font-family: Roboto;
+.footer p {
+    font-family: 'Roboto';
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 400;

@@ -11,62 +11,46 @@ body {
     display: none;
 }
 
-.head, .right_side > p, .input, .sign_up .footer{
-    display: flex;
-}
-
 .head {
-    order: 4;
+    order: 1;
     justify-content: center;
-}
-
-.right_side .head {
     margin-top: 3.88rem;
 }
 
 .right_side > p {
-    order: 1;
     margin-top: 0;
 }
 
-.right_side .input {
-    order: 2;
+.input {
     margin-top: 1.5rem;
     gap: 0.75rem;
 }
 
-.input .col-1 label {
+.col-1 label {
     display: none;
 }
 
-.right_side .input .forget a p {
+.forget a p {
     color: #8053FF;
 }
 
-.right_side .input .submit a input[type=submit] {
+.submit a input[type=submit] {
     margin-top: 1.5rem;
 }
 
-.right_side .input .line {
+.line {
     margin-top: 1.5rem;
 }
 
-.right_side .input .google_sign > a button {
+.google_sign > button {
     margin-top: 1.5rem;
 }
 
 .sign_up {
-    order: 3;
-}
-
-.right_side .sign_up {
     margin-top: 1.5rem;
 }
 
 .footer {
-    order: 5;
-}
-
-.right_side .footer {
+    order: 2;
     margin-top: 3.88rem;
 }
